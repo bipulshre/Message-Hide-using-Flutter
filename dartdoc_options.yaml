@@ -1,0 +1,40 @@
+dartdoc:
+  categories:
+    "App":
+      markdown: lib/README.md
+    "Screens":
+      markdown: lib/screens/README.md
+    "Screens: Home":
+      markdown: lib/screens/home/README.md
+    "Screens: Send":
+      markdown: lib/screens/send/README.md
+    "Screens: Receive":
+      markdown: lib/screens/receive/README.md
+    "Screens: Encode Result":
+      markdown: lib/screens/encoded/README.md
+    "Screens: Decode Result":
+      markdown: lib/screens/decoded/README.md
+    "Screens: Contribute":
+      markdown: lib/screens/contribute/README.md
+    "Serivces: Requests":
+      markdown: lib/services/requests/README.md
+    "Services: Responses":
+      markdown: lib/services/responses/README.md
+    "Services: States":
+      markdown: lib/services/states/README.md
+    "App Config":
+      markdown: lib/app/README.md
+    "Components":
+      markdown: lib/components/README.md
+    "Services":
+      markdown: lib/services/README.md
+    "i18n":
+      markdown: lib/services/i18n/README.md
+    "i18n: Messages":
+      markdown: lib/services/i18n/messages/README.md
+  categoryOrder: ["App", "App Config", "Screens", "Components", "Services", "Screens: Home", "Screens: Send", "Screens: Receive", "Screens: Encode Result", "Screens: Decode Result", "Screens: Contribute", "Serivces: Requests", "Services: Responses", "Services: States", "i18n", "i18n: Messages"]
+  showUndocumentedCategories: false
+  favicon: assets/favicons/favicon.ico
+  linkToSource:
+    root: '.'
+    uriTemplate: "https://github.com/tianhaoz95/photochat/blob/master/photochatapp/%f%#L%l%"

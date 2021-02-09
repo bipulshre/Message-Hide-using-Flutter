@@ -1,0 +1,30 @@
+import 'package:flutter/material.dart';
+
+typedef void OnSubmitDecodeHandler();
+
+/// Receive Screen Send to Decode Button
+///
+/// {@category Screens: Receive}
+class ReceiveScreenSubmitDecodeBtn extends StatelessWidget {
+  final OnSubmitDecodeHandler onSubmitDecodeHandler;
+  const ReceiveScreenSubmitDecodeBtn({@required this.onSubmitDecodeHandler});
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+        child: RaisedButton(
+      key: Key('decode_screen_decode_btn'),
+      onPressed: this.onSubmitDecodeHandler,
+      child: Container(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            SizedBox(
+              width: 15.0,
+            ),
+            Text("Decode"),
+          ],
+        ),
+      ),
+    ));
+  }
+}
